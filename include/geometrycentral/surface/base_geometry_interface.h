@@ -5,6 +5,15 @@
 #include "geometrycentral/utilities/vector2.h"
 #include "geometrycentral/utilities/vector3.h"
 
+// NOTE: from variational-surface-cutting/core/include/geometry.h
+
+// Possible geometry types
+// typedef Vector2 Planar; // TODO change to Complex
+typedef Vector3 Euclidean;
+// typedef UnitVector3 Spherical;
+// TODO Hyperbolic
+
+
 namespace geometrycentral {
 namespace surface {
 
