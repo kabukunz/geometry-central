@@ -52,7 +52,7 @@ SET(SRCS
   surface/transfer_functions.cpp
   surface/quadric_error_simplification.cpp
   surface/subdivide.cpp
-  #surface/detect_symmetry.cpp
+  surface/detect_symmetry.cpp
   #surface/mesh_ray_tracer.cpp
   
   pointcloud/point_cloud.cpp
